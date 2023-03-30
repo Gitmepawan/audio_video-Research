@@ -1,3 +1,10 @@
+header {
+  background-color: #5a3d71;
+}
+body {
+  background-color: #48305b;
+}
+
 #nav-bar {
   display: flex;
   flex-direction: row;
@@ -65,6 +72,7 @@ section  {
 .container {
   max-width: 1000px;
   margin: auto;
+  position: relative;
 }
 .footer-content {
   display: flex;
@@ -217,3 +225,8 @@ video::-webkit-media-controls-time-remaining-display {
       bottom: 95px;
       transition: all 70ms;
     }
+    .fa, .fas {
+      font-weight: 700;
+      font-size: 30px;
+      color: #fff;
+  }

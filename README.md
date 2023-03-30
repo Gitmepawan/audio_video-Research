@@ -1,6 +1,9 @@
 # Node/Express Media Application with Accessibility Enhancements
 This repository contains a fully accessible Node/Express media application that uses one audio file and one video file. The purpose of this project is to learn and implement best practices for making multimedia accessible to everyone, including people with special needs.
 
+# Research document (Google Drive doc)
+https://docs.google.com/document/d/1Pg_fZKgPJ8hTcdEc5MNItPIqa0KDMAv7O3msm4vuvGc/edit?usp=sharing
+
 # Requirements
 To build and run this project, you will need to have the following installed on your machine:
 

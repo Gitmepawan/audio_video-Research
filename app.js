@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 var audioRouter = require('./routes/audio');
 var videoRouter = require('./routes/video');
 
@@ -23,7 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.static('public'));
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 app.use('/audio',audioRouter);
 app.use('/video',videoRouter);
 
@@ -38,7 +36,6 @@ app.use(function(err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
   // render the error page
   res.status(err.status || 500);
   res.render('error');
