@@ -54,10 +54,8 @@
   margin-top: -870px;
 }
 .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
 }
 .footer-content {
   display: flex;
@@ -91,7 +89,6 @@ video {
 }
 
 video::-webkit-media-controls-panel {
-  background-color: #f2f2f2;
   border-radius: 5px;
 }
 
