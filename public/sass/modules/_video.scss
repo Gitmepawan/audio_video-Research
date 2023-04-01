@@ -1,0 +1,115 @@
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  video::-webkit-media-controls-panel {
+    border-radius: 5px;
+  }
+  
+  video::-webkit-media-controls-play-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  video::-webkit-media-controls-time-remaining-display {
+    color: #333;
+  }
+  
+  .player {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border-bottom: 6px solid #3f51b5;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+    :hover .mask {
+      background-color: rgba(255, 255, 255, 0.1);
+      transition: all 1s;
+    }
+  
+    .like {
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      top: 15px;
+      right: 20px;
+      z-index: 15;
+      font-size: 1.5em;
+      vertical-align: middle;
+      line-height: 38px;
+      color: #f2f2f2;
+      border-radius: 50%;
+      text-align: center;
+      cursor: pointer;
+    }
+  
+     .icon-heart {
+      display: block;
+    }
+  
+     .mask {
+      height: 100%;
+      z-index: 2;
+      transition: all 1s;
+  }
+  
+    info {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 4;
+      list-style: none;
+      color: #262626;
+      transform: scale(1);
+    }
+    .transcript-button {
+      background-color: #260626;
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .transcript-button a {
+      color: white;
+      text-decoration: none;
+    }
+     #play-button {
+      box-sizing: border-box;
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: #5c6bc0;
+      box-shadow: 0 8px 25px 6px rgba(0, 0, 0, 0.5);
+      right: 40px;
+      bottom: 90px;
+      z-index: 5;
+      cursor: pointer;
+      transition: all 70ms;
+      border: none;}
+  
+      #play-button :hover {
+        width: 70px;
+        height: 70px;
+        box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+        right: 45px;
+        bottom: 95px;
+        transition: all 70ms;
+      }
+      .fa, .fas {
+        font-weight: 700;
+        font-size: 30px;
+        color: #fff;
+    }
+    .fa:hover, .fas:hover {
+      color: #8569d8;
+    }
